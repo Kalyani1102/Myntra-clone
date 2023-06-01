@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.left img{
+    width: 112px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.container{
+    padding: 0vw 5vw;
+}
+
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 14px;
+    cursor: pointer;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 75px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .section1{
+    background: #f2f2f2; 
+    cursor: pointer;
+    /* height: 122vh; */
+  }
+  .search{
+    width: 26vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+  }
+  .homeImg{
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+  .homeImg2{
+    height: 197px;
+    cursor: pointer;
+    
+  }
+  .homeImg3{
+    height: 164px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+  .homeImg4{
+    height: 89px;
+    cursor: pointer;
+    
+  }
+  .homeImg5{
+    height: 74px;
+    margin: 10px 0px;
+    cursor: pointer;
+
+    
+  }
+  .homeImg6{
+   margin: 12px 0px;
+   cursor: pointer;
+    
+  }
+  .homeImg7{
+    margin: 12px 0px;
+    cursor: pointer;
+     
+   }
+   .homeImg8{
+    margin: 12px 0px;
+    cursor: pointer;
+     
+   }
+   
+  .itemImg{
+    width: 10vw;
+    margin: 6px 15px;
+  }
+  footer{
+  padding: 23px;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+@media (max-width: 1272px) { 
+
+    nav ul li {
+      list-style: none;
+      padding: 0 4px;
+      font-size: 10px;
+  }
+    
+  
+    .containerHeader {
+      padding: 0 2vw;
+  }
+    
+  header{ 
+    height:122px;
+  }  
+  
+    nav{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .right{ 
+      flex-direction: column;
+    }
+  
+    .rightBox{
+      display: flex;
+      margin: 12px;
+    }
+  }
+  .rightBox{
+    display: flex;
+    cursor: pointer;
+  }
+  
